@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc37f30ed4495514caae50ef37d7a961, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc37f30ed4495514caae50ef37d7a961, type: 3}
       propertyPath: m_LocalScale.z
@@ -694,7 +694,7 @@ Transform:
   m_GameObject: {fileID: 548113015}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: 0.04249997, y: 0, z: -4}
-  m_LocalScale: {x: 0.050625, y: 0.05, z: 0.1078615}
+  m_LocalScale: {x: 0.050625, y: 1, z: 0.1078615}
   m_Children: []
   m_Father: {fileID: 645543964}
   m_RootOrder: 8
@@ -1003,7 +1003,7 @@ Transform:
   m_GameObject: {fileID: 767781038}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.04249997, y: 0, z: -8}
-  m_LocalScale: {x: 0.050624996, y: 0.05, z: 0.1078615}
+  m_LocalScale: {x: 0.050624996, y: 1, z: 0.1078615}
   m_Children: []
   m_Father: {fileID: 645543964}
   m_RootOrder: 9
@@ -1126,7 +1126,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 945712281}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -16.5, y: 13, z: -62}
+  m_LocalPosition: {x: -16.5, y: 26.9, z: 231.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1470,7 +1470,7 @@ Transform:
   m_GameObject: {fileID: 1350396247}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: 0.04249997, y: 0, z: 1.85}
-  m_LocalScale: {x: 0.050624996, y: 0.05, z: 0.1078615}
+  m_LocalScale: {x: 0.050624996, y: 1, z: 0.1078615}
   m_Children: []
   m_Father: {fileID: 645543964}
   m_RootOrder: 7
@@ -1964,17 +1964,17 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1776857733}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.9, y: 0, z: -16.5}
   m_LocalScale: {x: 5, y: 1, z: 11}
   m_Children:
   - {fileID: 341999782}
   - {fileID: 1068102117}
   - {fileID: 2051531272}
-  - {fileID: 1043724346}
+  - {fileID: 15599517}
   - {fileID: 1025185804}
   - {fileID: 452782049}
-  - {fileID: 15599517}
+  - {fileID: 1043724346}
   - {fileID: 23130428}
   - {fileID: 1764142193}
   - {fileID: 1235123405}
