@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 43f554685151c754795c1181c7b900ee
+timeCreated: 1524263272
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arm
+    100002: bdscales
+    100004: belly
+    100006: claws
+    100008: //RootNode
+    100010: eyes
+    100012: hdscales
+    100014: lteeth
+    100016: mouth
+    100018: spikes
+    100020: tail
+    100022: tongue
+    100024: tscale1
+    100026: tscale2
+    100028: upteeth
+    100030: wing
+    400000: arm
+    400002: bdscales
+    400004: belly
+    400006: claws
+    400008: //RootNode
+    400010: eyes
+    400012: hdscales
+    400014: lteeth
+    400016: mouth
+    400018: spikes
+    400020: tail
+    400022: tongue
+    400024: tscale1
+    400026: tscale2
+    400028: upteeth
+    400030: wing
+    2100000: armMat
+    2100002: bdscalesMat
+    2100004: bellyMat
+    2100006: clawsMat
+    2100008: eyesMat
+    2100010: hdscalesMat
+    2100012: lteethMat
+    2100014: mouthMat
+    2100016: spikesMat
+    2100018: tailMat
+    2100020: tongueMat
+    2100022: tscale1Mat
+    2100024: tscale2Mat
+    2100026: upteethMat
+    2100028: wingMat
+    2300000: arm
+    2300002: bdscales
+    2300004: belly
+    2300006: claws
+    2300008: eyes
+    2300010: hdscales
+    2300012: lteeth
+    2300014: mouth
+    2300016: spikes
+    2300018: tail
+    2300020: tongue
+    2300022: tscale1
+    2300024: tscale2
+    2300026: upteeth
+    2300028: wing
+    3300000: arm
+    3300002: bdscales
+    3300004: belly
+    3300006: claws
+    3300008: eyes
+    3300010: hdscales
+    3300012: lteeth
+    3300014: mouth
+    3300016: spikes
+    3300018: tail
+    3300020: tongue
+    3300022: tscale1
+    3300024: tscale2
+    3300026: upteeth
+    3300028: wing
+    4300000: arm
+    4300002: bdscales
+    4300004: belly
+    4300006: claws
+    4300008: eyes
+    4300010: hdscales
+    4300012: lteeth
+    4300014: mouth
+    4300016: spikes
+    4300018: tail
+    4300020: tongue
+    4300022: tscale1
+    4300024: tscale2
+    4300026: upteeth
+    4300028: wing
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
