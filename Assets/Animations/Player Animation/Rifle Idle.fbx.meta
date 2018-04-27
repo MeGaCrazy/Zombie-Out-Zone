@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: c805fd5a9aa7cce4daa55d5bc334f81b
-timeCreated: 1524812191
+guid: f22ef58b82dd3f24aa032e55ff7c57c6
+timeCreated: 1524815983
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -38,36 +38,36 @@ ModelImporter:
     100060: LeftToeBase
     100062: LeftUpLeg
     100064: Neck
-    100066: RightArm
-    100068: RightFoot
-    100070: RightForeArm
-    100072: RightHand
-    100074: RightHandIndex1
-    100076: RightHandIndex2
-    100078: RightHandIndex3
-    100080: RightHandIndex4
-    100082: RightHandMiddle1
-    100084: RightHandMiddle2
-    100086: RightHandMiddle3
-    100088: RightHandMiddle4
-    100090: RightHandPinky1
-    100092: RightHandPinky2
-    100094: RightHandPinky3
-    100096: RightHandPinky4
-    100098: RightHandRing1
-    100100: RightHandRing2
-    100102: RightHandRing3
-    100104: RightHandRing4
-    100106: RightHandThumb1
-    100108: RightHandThumb2
-    100110: RightHandThumb3
-    100112: RightHandThumb4
-    100114: RightLeg
-    100116: RightShoulder
-    100118: RightToe_End
-    100120: RightToeBase
-    100122: RightUpLeg
-    100124: //RootNode
+    100066: //RootNode
+    100068: RightArm
+    100070: RightFoot
+    100072: RightForeArm
+    100074: RightHand
+    100076: RightHandIndex1
+    100078: RightHandIndex2
+    100080: RightHandIndex3
+    100082: RightHandIndex4
+    100084: RightHandMiddle1
+    100086: RightHandMiddle2
+    100088: RightHandMiddle3
+    100090: RightHandMiddle4
+    100092: RightHandPinky1
+    100094: RightHandPinky2
+    100096: RightHandPinky3
+    100098: RightHandPinky4
+    100100: RightHandRing1
+    100102: RightHandRing2
+    100104: RightHandRing3
+    100106: RightHandRing4
+    100108: RightHandThumb1
+    100110: RightHandThumb2
+    100112: RightHandThumb3
+    100114: RightHandThumb4
+    100116: RightLeg
+    100118: RightShoulder
+    100120: RightToe_End
+    100122: RightToeBase
+    100124: RightUpLeg
     100126: Spine
     100128: Spine1
     100130: Spine2
@@ -104,36 +104,36 @@ ModelImporter:
     400060: LeftToeBase
     400062: LeftUpLeg
     400064: Neck
-    400066: RightArm
-    400068: RightFoot
-    400070: RightForeArm
-    400072: RightHand
-    400074: RightHandIndex1
-    400076: RightHandIndex2
-    400078: RightHandIndex3
-    400080: RightHandIndex4
-    400082: RightHandMiddle1
-    400084: RightHandMiddle2
-    400086: RightHandMiddle3
-    400088: RightHandMiddle4
-    400090: RightHandPinky1
-    400092: RightHandPinky2
-    400094: RightHandPinky3
-    400096: RightHandPinky4
-    400098: RightHandRing1
-    400100: RightHandRing2
-    400102: RightHandRing3
-    400104: RightHandRing4
-    400106: RightHandThumb1
-    400108: RightHandThumb2
-    400110: RightHandThumb3
-    400112: RightHandThumb4
-    400114: RightLeg
-    400116: RightShoulder
-    400118: RightToe_End
-    400120: RightToeBase
-    400122: RightUpLeg
-    400124: //RootNode
+    400066: //RootNode
+    400068: RightArm
+    400070: RightFoot
+    400072: RightForeArm
+    400074: RightHand
+    400076: RightHandIndex1
+    400078: RightHandIndex2
+    400080: RightHandIndex3
+    400082: RightHandIndex4
+    400084: RightHandMiddle1
+    400086: RightHandMiddle2
+    400088: RightHandMiddle3
+    400090: RightHandMiddle4
+    400092: RightHandPinky1
+    400094: RightHandPinky2
+    400096: RightHandPinky3
+    400098: RightHandPinky4
+    400100: RightHandRing1
+    400102: RightHandRing2
+    400104: RightHandRing3
+    400106: RightHandRing4
+    400108: RightHandThumb1
+    400110: RightHandThumb2
+    400112: RightHandThumb3
+    400114: RightHandThumb4
+    400116: RightLeg
+    400118: RightShoulder
+    400120: RightToe_End
+    400122: RightToeBase
+    400124: RightUpLeg
     400126: Spine
     400128: Spine1
     400130: Spine2
@@ -165,7 +165,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
