@@ -235,9 +235,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\enemy\EnemeyAttack.cs" />
-    <Compile Include="Assets\Scripts\enemy\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Camera\camMouseLook.cs" />
+    <Compile Include="Assets\Scripts\enemy\chase.cs" />
+    <Compile Include="Assets\Scripts\Player\playerControler.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
