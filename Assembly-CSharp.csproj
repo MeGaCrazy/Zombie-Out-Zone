@@ -53,8 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Camera\camMouseLook.cs" />
+     <Compile Include="Assets\Scripts\DragonTerrorBringer\dragon ai.cs" />
      <Compile Include="Assets\Scripts\enemy\chase.cs" />
-     <Compile Include="Assets\Scripts\Player\dragon.cs" />
      <Compile Include="Assets\Scripts\Player\playerControler.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <None Include="Assets\Shaders\bricks-868344.shader" />
