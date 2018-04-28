@@ -6,8 +6,10 @@ public class CameraFollow : MonoBehaviour {
 	public Transform target;
 	public float smoothing =5f;
 	Vector3 offset;
+	Vector3 offsetRotation;
+	public bool lootAtPlayer=true;
 	void Start(){
-		offset = transform.position - target.position;
+		offset = transform.position- target.position;
 	}
 	void FixedUpdate(){	
 		Vector3 targetCampos = target.position + offset;

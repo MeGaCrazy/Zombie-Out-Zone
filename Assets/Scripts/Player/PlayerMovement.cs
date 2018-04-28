@@ -1,46 +1,64 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerMovement : MonoBehaviour {
 	public float speed = 6f;
 	Vector3 movement;
 	Animator anim;
 	Rigidbody playerRigidbody;
-	float camRayLength = 100f;
-	int floorMask;
+	private Transform CamTransform;
+	Vector2 MoveVector;
+	public Transform cube;
 	void Awake(){
-		floorMask = LayerMask.GetMask ("Floor");
 		anim = GetComponent<Animator> ();
 		playerRigidbody = GetComponent<Rigidbody> ();
 	}
 	void FixedUpdate(){
-		float h = Input.GetAxisRaw ("Horizontal");
-		float v = Input.GetAxisRaw ("Vertical");
+		float h = CrossPlatformInputManager.GetAxisRaw ("Horizontal");
+		float v = CrossPlatformInputManager.GetAxisRaw ("Vertical");
 		Move (h, v);
-		Turning ();
-		Animating (h, v);
+		if (Input.touchCount == 1)
+        {
+            // GET TOUCH 0
+            Touch touch0 = Input.GetTouch(0);
+ 
+            // APPLY ROTATION
+            if (touch0.phase == TouchPhase.Moved)
+            {
+                cube.transform.Rotate(0f, touch0.deltaPosition.x, 0f);
+            }
+ 
+        }
+		//Turning ();
+
 	}
 	void Move(float h,float v){
 		movement.Set (h, 0f, v);
 		movement = movement.normalized * speed * Time.deltaTime;
 		playerRigidbody.MovePosition (transform.position + movement);
-	}
-	void Turning ()
-	{
-		Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);
+		//Rotate Our Camera
+		MoveVector=RotateWithView();
 
-		RaycastHit floorHit;
-		if(Physics.Raycast (camRay, out floorHit, camRayLength, floorMask))
-		{
-			Vector3 playerToMouse = floorHit.point - transform.position;
-			playerToMouse.y = 0f;
-			Quaternion newRotation = Quaternion.LookRotation (playerToMouse);
-			playerRigidbody.MoveRotation (newRotation);
+		Animating (movement.magnitude);
+		if (movement.magnitude >0) {
+			Quaternion newDirection = Quaternion.LookRotation (movement);
+			transform.rotation = newDirection;	
 		}
 	}
-	void Animating(float h,float v){
-		bool walking = h != 0f || v != 0f;
+	void Animating(float mvspeed){
+		bool walking = mvspeed>0;
 		anim.SetBool ("isWalking", walking);
+	}
+	private Vector3 RotateWithView(){
+		if (CamTransform != null) {
+			Vector3 dir = CamTransform.TransformDirection (MoveVector);
+			dir.Set (dir.x, 0, dir.z);
+			return dir.normalized*MoveVector.magnitude;
+		} else {
+			CamTransform = Camera.main.transform;
+			return MoveVector;
+		}
 	}
 }
