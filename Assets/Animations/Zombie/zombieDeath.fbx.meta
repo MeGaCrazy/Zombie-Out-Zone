@@ -192,15 +192,15 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.7092391
-        functionName: StartSinking
+      - time: 0
+        functionName: NewEvent
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0
-        functionName: NewEvent
+      - time: 0.8343949
+        functionName: StartSinking
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

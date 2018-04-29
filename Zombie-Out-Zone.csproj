@@ -246,6 +246,7 @@
     <Compile Include="Assets\Mobile Input\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Mobile Input\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\manager\zombieManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />

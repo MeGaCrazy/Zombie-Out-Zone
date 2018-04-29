@@ -61,7 +61,7 @@ public class detectHit : MonoBehaviour {
     {
         GetComponent<Rigidbody>().isKinematic = true;
         isSinking = true;
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
     }
 
 
