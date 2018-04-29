@@ -8,6 +8,7 @@ public class plapla : MonoBehaviour {
 	public PlayerHealth ph;
 	static Animator anim;
 
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
@@ -28,7 +29,7 @@ public class plapla : MonoBehaviour {
             anim.SetBool("issleep", true);
             if(Vector3.Distance(player.position, this.transform.position) > 20 && angle < 180)
             {
-                this.transform.Translate(0, 0, 0.1f);
+                this.transform.Translate(0, 0, 0.3f);
                 anim.SetBool("isrun", true);
                 anim.SetBool("isattacke", false);
             }
@@ -42,7 +43,6 @@ public class plapla : MonoBehaviour {
 		}
 		else
 		{
-			anim.SetBool("isIdle", true);
 			anim.SetBool("issleep", false);
 		}
 	}

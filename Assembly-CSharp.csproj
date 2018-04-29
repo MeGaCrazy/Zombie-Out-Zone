@@ -68,6 +68,8 @@
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+     <Compile Include="Assets\Scripts\zombieScripts\chase.cs" />
+     <Compile Include="Assets\Scripts\zombieScripts\detectHit.cs" />
      <Compile Include="Assets\Virtual Joystick Pack\Example\PlayerExample.cs" />
      <Compile Include="Assets\Virtual Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Virtual Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
