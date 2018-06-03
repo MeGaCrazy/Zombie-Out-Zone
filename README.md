@@ -20,4 +20,4 @@ it's about a brave warrior trying to save the world from `Zombies`
 [![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t1.15752-9/33921745_2117915061821926_3587956099292069888_n.png?_nc_cat=0&oh=cb80f89a572e6a604cf50fa91e3dacaa&oe=5BC29491)]()
 
 
-#### THE [APK](https://drive.google.com/open?id=1ww91WYR66aaaNmIw1B0d2LXv_19EWvMyt) for The Game
+#### The [APK](https://drive.google.com/drive/folders/1ww91WYR66aaaNmIw1B0d2LXv_19EWvMy?usp=sharing) for The Game
