@@ -8,7 +8,7 @@ it's about a brave warrior trying to save the world from `Zombies`
 ### Screenshots From GamePlay
 #### Environment
 
-[![N|Solid](https://photos.app.goo.gl/ETn3w27ocdrZADEdA)]()
+<img src="https://photos.app.goo.gl/UkSXvz9pkcqdA3vNA" alt="HMTL Architecture" width="350"/>
 
 #### Character
 
