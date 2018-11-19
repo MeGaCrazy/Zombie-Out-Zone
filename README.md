@@ -8,16 +8,14 @@ it's about a brave warrior trying to save the world from `Zombies`
 ### Screenshots From GamePlay
 #### Environment
 
-<img src="https://photos.app.goo.gl/UkSXvz9pkcqdA3vNA" alt="HMTL Architecture" width="350"/>
+<img src="https://github.com/MeGaCrazy/Zombie-Out-Zone/blob/master/gfimgs/31369773_2099216010358498_2204123000935022592_n.png" alt="" width="350"/>
 
 #### Character
 
-[![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t1.15752-9/34138833_2117914555155310_1437889913226788864_n.png?_nc_cat=0&oh=6f7e371a9f8e8bdeb9f6faaeba34abd1&oe=5BB5F782)]()
+<img src="https://github.com/MeGaCrazy/Zombie-Out-Zone/blob/master/gfimgs/31282783_2099350003678432_5677724608128614400_n.png" alt="" width="350"/>
 
+#### Game play
 
-#### Zombie and Zombie's Queen
-
-[![N|Solid](https://scontent-cai1-1.xx.fbcdn.net/v/t1.15752-9/33921745_2117915061821926_3587956099292069888_n.png?_nc_cat=0&oh=cb80f89a572e6a604cf50fa91e3dacaa&oe=5BC29491)]()
-
+<img src="https://github.com/MeGaCrazy/Zombie-Out-Zone/blob/master/gfimgs/31520605_2100196933593739_6377368853592145920_n.png" alt="" width="350"/>
 
 #### The [APK](https://drive.google.com/drive/folders/1ww91WYR66aaaNmIw1B0d2LXv_19EWvMy?usp=sharing) for The Game
